@@ -1,0 +1,18 @@
+name: HCL DevOps Test Integrations and APIs
+
+on: workflow_dispatch
+
+jobs:
+    API-Action:
+        runs-on: self-hosted
+        name: HCL DevOps Test Integrations and APIs
+        steps:
+         - name: HCL DevOps Test Integrations and APIs
+           uses: HCL-TECH-SOFTWARE/devops-test-api-action@main
+           with:
+            projectDir:
+            projectName: 
+            environment: 
+            tests: 
+            parameterFile: 
+            junitDir: 
