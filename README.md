@@ -28,7 +28,7 @@ jobs:
         runs-on: self-hosted
         steps:
          - name: HCL DevOps Test Integrations and APIs
-           uses: HCL-TECH-SOFTWARE/devops-test-api-action@v1
+           uses: HCL-TECH-SOFTWARE/devops-test-api-action@main
            with:
             projectDir: <C:\Data\SampleProject>
             projectName: <MyProject>
